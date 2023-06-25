@@ -1,5 +1,4 @@
 from selenium.webdriver.common.by import By
-import pytest
 
 def test_vk_for_mobile_device(browser):
     VkForMobile = browser.find_element(By.CLASS_NAME, 'login_mobile_header')
